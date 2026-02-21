@@ -12,12 +12,9 @@
 
 int ldrPin = A0;
 void setup() {
+    Serial.begin(9600);
+    pinMode(ldrPin, INPUT);
 
-    // TODO 3:
-    // Initialize Serial communication (9600 baud rate)
-
-    // TODO 4:
-    // Print system initialization message
 }
 
 void loop() {
